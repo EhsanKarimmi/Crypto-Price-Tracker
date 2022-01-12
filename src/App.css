@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+    font-weight: bold;
+
+    color: #dddddd;
+}
+
+body {
+    background-color: #222831;
+}
+
+.coinApp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.coinSearch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coinTitle {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.searchInput {
+    width: 350px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    background-color: #334756;
+    color: #f7f6f2;
+    padding: 15px;
+    margin: 30px 0;
+}
+
+.searchInput::placeholder {
+    color: #f7f6f2;
+    border: none;
+}
+
+.searchInput:focus {
+    outline: none;
+}
+
+.coinTable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.tableTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border: 3px solid #ededed;
+    background-color: #ededed;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tableTitle p {
+    padding: 0 5px;
+    color: #222831;
+}
+
+.titleName {
+    margin-left: 55px;
+}
+
+.titleSymbol {
+    margin-left: 60px;
+}
+
+.titlePrice {
+    margin-left: 60px;
+}
+
+.titleVolume {
+    margin-left: 35px;
+}
+
+.titleChange {
+    margin-left: 45px;
+}
+
+.titleMarket {
+    margin-left: 10px;
+}
